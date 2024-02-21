@@ -25,3 +25,9 @@ An agent runs on each node in the cluster, makes sure that containers are runnin
 Acts as a network proxy maintains network roles on the host and performs connection forwarding 
 ### Container runtime engine:
 Responsible for running containers, Ex: Docker, containerd
+
+
+## Important notes:
+1. The API Server is the only component that connects to Etcd, all other components must go through the API server in order to access cluster state information.
+2. The API server is responsible for Authentication, Authorization mechanism, All API request should be authenticated and authorized to perform the desired action
+
