@@ -12,3 +12,4 @@
 
 
 **Note**  kubectl api-resources -o wide returns very useful output includes the resources and their api version  
+**Note**  kubectl explain pods returns useful information about the needed elements in Yaml 
