@@ -7,9 +7,11 @@ Watch, keep an eye on the details, try to document "Brainstorming", apply, and p
 
 
 
-## subfolder1: Core Concepts
+## Theory and Core Concepts
 1. Overview of container orchestration
-2. second
-3. third
+2. Kubernetes fundamentals
+3. overview of Kubectl
+4. Kubernetes components overview
+5. pod creation flow and notes
 
  
