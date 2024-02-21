@@ -9,3 +9,6 @@
 8. Kubelet communicates with the CRE to create the container
 9. Kubelet updates the status of the POD to the API
 10. API writes the status to etcd.
+
+
+**Note**  kubectl api-resources -o wide returns very useful output includes the resources and their api version  
