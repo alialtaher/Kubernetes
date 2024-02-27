@@ -6,4 +6,6 @@ labs and Documentations of my journey with CKA from mummshad course on udemy, st
 ### ETCD
 Key/val store for cluster information, well described in folder 1-etcd
 
+### KubeAPI
+The center of communication with Kubernetes cluster.
 
