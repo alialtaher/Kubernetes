@@ -14,3 +14,6 @@ Controls the health of cluster components, contains a varity of controllers to e
 
 ### Kube Scheduler
 Responsible for deciding where to place the workloads on Worker nodes, Not to schedule them "Kubelet responsibility" 
+
+## Kubelet
+Worker node component, Main interaction point with the master node.
