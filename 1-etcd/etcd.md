@@ -8,15 +8,11 @@ Distributed, Reliable key/value store, simple fast and secure.
 2. version 3.1 was released in JAN 2017.
 3. in NOV 2018, ETCD was incubated in CNCF
 
-** Note ** Changes in etcdctl commands explained below 
+**Note**  Changes in etcdctl commands explained below 
 
 
 
-
-
-
-
-## Installation of ETCD**
+## Installation of ETCD
 ### binaries: 
 1. download from github
 2. extract with tar
@@ -29,26 +25,26 @@ Distributed, Reliable key/value store, simple fast and secure.
 
 
 ## ETCDCTL API V2 VS V3
-etcdctl supports both versions, to show what API version you are using run: 
-etcdctl --version //v2
-etcdctl version   //v3
+- etcdctl supports both versions, to show what API version you are using run: 
+- etcdctl --version //v2
+- etcdctl version   //v3
 
 ** ETCDCTL_API environment variable is used to change the version of the API **  
 
 ## commands:
-** v2 **
-etcdctl set key val
-etcdctl get key
-etcdctl backup
-etcdctl cluster-health
-etcdctl mk
-etcdctl mkdir
+**V2** 
+1. etcdctl set key val
+2. etcdctl get key
+3. etcdctl backup
+4. etcdctl cluster-health
+5. etcdctl mk
+6. etcdctl mkdir
 
-** v3 ** 
-etcdctl put key val
-etcdctl get key
-etcdctl snapshot save 
-etcdctl endpoint health
+**V3** 
+1. etcdctl put key val
+2. etcdctl get key
+3. etcdctl snapshot save 
+4. etcdctl endpoint health
 
 
 
@@ -67,4 +63,4 @@ The certificate files are available in the etcd-master at the following paths
 
 
 EXAMPLE: in order to get the list of  keys in etcd: 
-kubectl exec etcd-master -n kube-system -- sh -c "ETCDCTL_API=3 etcdctl get / --prefix --keys-only --limit=10 --cacert /etc/kubernetes/pki/etcd/ca.crt --cert /etc/kubernetes/pki/etcd/server.crt  --key /etc/kubernetes/pki/etcd/server.key" 
+- kubectl exec etcd-master -n kube-system -- sh -c "ETCDCTL_API=3 etcdctl get / --prefix --keys-only --limit=10 --cacert /etc/kubernetes/pki/etcd/ca.crt --cert /etc kubernetes/pki/etcd/server.crt  --key /etc/kubernetes/pki/etcd/server.key" 
