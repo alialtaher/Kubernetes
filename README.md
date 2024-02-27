@@ -17,3 +17,6 @@ Responsible for deciding where to place the workloads on Worker nodes, Not to sc
 
 ## Kubelet
 Worker node component, Main interaction point with the master node.
+
+## KubeProxy
+Process on each node, mainly used for network routing to the pods
