@@ -11,3 +11,6 @@ The center of communication with Kubernetes cluster.
 
 ### Controller Manager
 Controls the health of cluster components, contains a varity of controllers to ensure cluster/deployments/PV, etc.. health
+
+### Kube Scheduler
+Responsible for deciding where to place the workloads on Worker nodes, Not to schedule them "Kubelet responsibility" 
