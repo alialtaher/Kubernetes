@@ -15,8 +15,16 @@ Controls the health of cluster components, contains a varity of controllers to e
 ### Kube Scheduler
 Responsible for deciding where to place the workloads on Worker nodes, Not to schedule them "Kubelet responsibility" 
 
-## Kubelet
+### Kubelet
 Worker node component, Main interaction point with the master node.
 
-## KubeProxy
+### KubeProxy
 Process on each node, mainly used for network routing to the pods
+
+
+
+## Kubernetes objects
+### POD
+The smallest object in Kubernetes, acts as a encapsulation for a single/multi container, It can have more than one container, except if those containers are the same "Useless"
+
+
