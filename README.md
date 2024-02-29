@@ -25,6 +25,7 @@ Process on each node, mainly used for network routing to the pods
 
 ## Kubernetes objects
 ### POD
-The smallest object in Kubernetes, acts as a encapsulation for a single/multi container, It can have more than one container, except if those containers are the same "Useless"
+single or multicontainer kubernetes object
+
 
 
