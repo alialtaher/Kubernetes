@@ -28,4 +28,7 @@ Process on each node, mainly used for network routing to the pods
 single or multicontainer kubernetes object
 
 
+## Replication controller AND Replicaset
+- Replication controller: Ensures that the desired number of pods is running all the time, Applicable even when we have a single pod, can be used also for load balancing and scaling
+- Replicaset has the same purpose with some benifits that led to RS replacing RC
 
